@@ -17,3 +17,7 @@
 - [pina](https://pinia.vuejs.org/)
 - [uview-plus](https://uiadmin.net/uview-plus/components/intro.html)
 - [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
+- [1万字！uni-app+vue3.2+ts+vite大杂烩实战](https://juejin.cn/post/7148008686911225864)
+- [https://juejin.cn/post/7244192313844154424](https://juejin.cn/post/7244192313844154424)
+- [vue3+uniapp+vite+ts+pinia+mock+uviewPlus](https://ext.dcloud.net.cn/plugin?id=9132)
+- [Vue3 + typescript + vite + pinia+ mock框架](https://ext.dcloud.net.cn/plugin?id=13525)
