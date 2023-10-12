@@ -39,13 +39,6 @@ const checkChange = () => {
 let usernameOrPhone = ref('admin')
 let password = ref('123456')
 
-const clearContent = (type) => {
-  if (type === 1) {
-    usernameOrPhone.value = ''
-  } else {
-    password.value = ''
-  }
-}
 const goReg = () => {
   uni.navigateTo({
     url: '/pages/common/regCheck',
