@@ -57,6 +57,7 @@ const bind = async () => {
     password: password.value,
   }
 
+  // #ifdef MP
   // 获取code
   const result = await uni.login({
     provider: 'weixin',
@@ -78,6 +79,11 @@ const bind = async () => {
     useUserInfo().setToken(loginResult.data!.token)
     goHome()
   }
+  // #endif
+
+  // #ifdef APP-PLUS || H5
+  goHome()
+  // #endif
 }
 const goHome = () => {
   uni.navigateTo({
